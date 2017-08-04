@@ -1,0 +1,75 @@
+body
+{
+color: #000;
+margin: 10px 0px 10px 0px;
+background-image:url('https://scontent.fnbo5-1.fna.fbcdn.net/v/t1.0-0/p206x206/12509116_10207607652902067_6890812933419144242_n.jpg?oh=26e62ab036923d9766bcb80a9e63f638&oe=5A2FAE97');
+background-repeat: no-repeat;
+font-family: Arial, Helvetica, sans-serif;
+background-attachment: fixed;
+background-position: center;
+background-size:   cover;
+width: auto;
+height:  auto;
+}
+ul {
+    list-style-type: none;
+    margin:   auto;
+    padding:  0;
+    display:  inline-block;
+}
+li {
+    float:  left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+.font_0{
+  text-align: center;
+  font-size: 45px;
+  color: skyblue;
+  margin: auto;
+  padding: 0;
+  font: normal normal normal 130px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+  color: #4378FF;
+}
+}
+.font_5{
+font: italic normal normal 23px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+font-style: italic;
+font-variant-ligatures: normal;
+font-variant-caps: normal;
+font-variant-numeric: normal;
+font-weight: normal;
+font-stretch: normal;
+font-size: 23px;
+line-height: 1.4em;
+font-family: georgia, palatino, "book antiqua", "palatino linotype", serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-home {
+  style="background-image: url('https://scontent.fnbo5-1.fna.fbcdn.net/v/t1.0-0/p206x206/12509116_10207607652902067_6890812933419144242_n.jpg?oh=26e62ab036923d9766bcb80a9e63f638&oe=5A2FAE97');
+}
