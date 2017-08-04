@@ -1,0 +1,22 @@
+# jonnygovish.github.iom
+## My Portfolio
+
+#### {Brief description of application}, {Date of current version}
+An overview of my achievement.
+
+
+
+## Description
+The website introduces me to the world and outline my achievements as well as my personal education history
+
+## Technologies Used
+
+The web was written using HTML
+
+
+
+### License
+
+MIT
+
+Copyright (c) John Mutavi
