@@ -1,7 +1,6 @@
-# jonnygovish.github.iom
+
 ## My Portfolio
 
-#### {Brief description of application}, {Date of current version}
 An overview of my achievement.
 
 
