@@ -1,11 +1,13 @@
+/*
 #head-line{
   background-image:  url("../imgs/home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-  height: 1000px;
+  height: 100px;
     width: 100%;
 }
+*/
 
 .center_wrapper {
   margin:  0 auto;
@@ -13,16 +15,19 @@
 }
 .cont{
   height: 300px;
-  background-size: c;
+    width: 100%;
+  background-size:cover;
   background-image: url('../imgs/header.jpg');
   background-repeat:  no-repeat;
-  overflow : visible;
+  overflow : hidden;
+    
 }
 .nav{
   height: 40px;
   margin-top: 105px;
   border:0;
   overflow: hidden;
+    position: fixed
 }
 .header {
 
@@ -30,7 +35,6 @@
 .page-title {
   float: left;
   padding:  20px 0 0 235px;
-  color: blue;
 }
 .page-title h1 {
 	font: normal 2.8em Verdana,sans-serif;
@@ -39,11 +43,9 @@
 }
 
 #logo  {
-    color: #4aa4d8;
-    text-shadow: 0px 1px 0px #000;
+    color: black;
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    font-weight:bolder;
     font-style: italic;
 }
 #tagline {
@@ -54,7 +56,7 @@
 }
 .intro h1{
   line-height: .95;
-  color: #66fcf1;
+  color: black;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 200px;
@@ -95,15 +97,11 @@
   text-decoration: none;
   z-index: auto;
 }
-div.well {
-  border: 1px;
-  margin-top:  200px;
-  background-image:  inherit;
+
+img{
+    
+    width:  300px;
 }
-#jum{background-color:#9c4e16;opacity:0.85;}
-#jum:hover{
-  opacity:1;
-  border: solid;
 }
 #contacts{
   height: 500px;
