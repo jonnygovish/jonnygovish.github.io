@@ -1,6 +1,10 @@
 #head-line{
-  background-image:  url("imgs/home.jpg");
+  background-image:  url("../imgs/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   height: 1000px;
+    width: 100%;
 }
 
 .center_wrapper {
@@ -9,10 +13,10 @@
 }
 .cont{
   height: 300px;
-  background-size: cover;
-  background-image: url('header.jpg');
-  background-repeat:  repeat;
-  overflow: hidden;
+  background-size: c;
+  background-image: url('../imgs/header.jpg');
+  background-repeat:  no-repeat;
+  overflow : visible;
 }
 .nav{
   height: 40px;
