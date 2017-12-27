@@ -1,137 +1,425 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="no-js">
 
 <head>
-    <meta charset="utf-8">
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no;">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="img/myAvatar.png">
+
+    <script src="js/modernizr.js"></script>
+
+    <!--CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Zilla+Slab+Highlight" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="lib/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/sample.css"> -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://use.fontawesome.com/15a9a436fb.js"></script>
 </head>
 
 <body>
-    <section id="head-line">
-        <div class="cont">
-            <div id="top" class="center_wrapper">
-                <div class="header">
-                    <div class="page-title">
-                        <h1 id="logo" class=" animated rotateInUpLeft">JOHN MUTAVI</h1>
-                        <div id="tagline" class="animated bounceInDown">
-                            Web Developer
+    <!--   preloader-->
+    <div id="preloader">
+        <div class="loader">
+
+        </div>
+    </div>
+    <!--   preloader end-->
+
+    <div class="page-container">
+
+        <!--    profile Page-->
+        <div class="single-page">
+
+            <!--profile Page Title-->
+            <div class="page-title">
+                <span><i class="fa fa-user fa-3x"></i> </span>
+                <h2>Profile</h2>
+                <p class="menu-desc">A Brief About Me..</p>
+            </div>
+            <!--end page title-->
+            <!--Profile Page Content-->
+            <div class="page-info container-fluid">
+                <!--about me-->
+                <div class="row about-me">
+                    <div class="col-sm-5 col-sm-offset-1 profile-image">
+                        <div class="pp-container">
+                            <img src="img/myAvatar.png" alt="">
                         </div>
-                        <div class="nav" id="navigation">
-                            <ul class="menu">
-                                <li><a href="#index">Home</a></li>
-                                <li><a href="#about-me">About me</a></li>
-                                <li><a href="#projects">Projects</a></li>
-                                <li><a href="#contacts">Contacts</a></li>
+                        <h2><span>John mutavi</span>
+                        </h2>
+                        <h3>Full stack web developer</h3>
+                    </div>
+                    <!--.profile image end-->
+
+                    <!--bio-->
+                    <div class="col-sm-6 bio">
+                        <div class="bio-inner">
+                            <div class="col-md-10">
+                                <h3>An Awesome Web Developer</h3>
+                                <p>lorem ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--bio end-->
+
+                </div>
+                <!--about me end-->
+
+                <!--services-->
+                <div class="row services">
+                    <div class="over-div"></div>
+                    <div class="sec-divider"></div>
+                    <h2 class="section-title">Projects I Can Offer</h2>
+
+                    <div class="container service-list">
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 service">
+                                <span><i class="fa fa-lightbulb-o fa-3x"></i></span>
+                                <h3>Idea</h3>
+                                <p>I will think of something</p>
+                            </div>
+                            <!--single service-->
+                            <div class="col-sm-6 col-md-6 service">
+                                <span><i class="fa fa-code fa-3x"></i></span>
+                                <h3>Web Development</h3>
+                                <p>I will think of something</p>
+                            </div>
+                            <!--single service-->
+                        </div>
+                        <!--row of service-->
+                    </div>
+                    <!--service list end-->
+                </div>
+                <!--sevices end-->
+
+                <div class="row footer">
+                    <a href="#">John Mutavi</a> <span>Copyright &copy; 2017 All right reserved</span>
+                </div>
+                <!--footer end-->
+
+            </div>
+            <!--page info end-->
+
+        </div>
+        <!--single page end-->
+
+        <!--Resume Page-->
+        <div class="single-page">
+            <div class="page-title">
+                <span><i class="fa fa-file-text fa-3x"></i></span>
+                <h2>Resume</h2>
+                <p class="menu-desc">My Qualifications...</p>
+            </div>
+            <!--Page title end-->
+            <!--Resume Page Contents-->
+            <div class="page-info container-fluid">
+                <div class="row resume">
+                    <div class="over-div"></div>
+                    <div class="container">
+                        <div class="col-xs-6 education">
+                            <h2>- Education -</h2>
+
+                            <ul class="edu-list">
+                                <li>
+                                    <h3>University of Engineering</h3>
+                                    <h4>Bachelor of Science</h4>
+                                    <span>2007-2011</span>
+                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
+                                </li>
+                                <li>
+                                    <h3>College of Awesomeness</h3>
+                                    <h4>A Level</h4>
+                                    <span>2005-2007</span>
+                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
+                                </li>
+                                <li>
+                                    <h3>School of Amusement</h3>
+                                    <h4>O Level</h4>
+                                    <span>2000-2005</span>
+                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-6 employment">
+                            <h2>- Employment -</h2>
+                            <ul class="employemnt-list">
+                                <li>
+                                    <h3>Fantasy IT Kingdom</h3>
+                                    <h4>Lead Developer</h4>
+                                    <span>Dec 2012 - Present</span>
+                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus. </p>
+                                </li>
+                                <li>
+                                    <h3>Awesome Softwares</h3>
+                                    <h4>Front-End Developer</h4>
+                                    <span>Jan 2012-Dec 2012</span>
+                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
+                                </li>
+                                <li>
+                                    <h3>Amazing Developers</h3>
+                                    <h4>Intern Developer</h4>
+                                    <span>Jan 2011- Dec 2011</span>
+                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                </div>
-            </div>
-    
-        </div>
+                    <!--container end-->
 
-    </section>
-    <section id="about-me">
-        <div class="well" >
-       <div class="row">
-          <div class="col-md-4">
-              <img src="imgs/myself.jpg" alt="me">
-          </div>
-           <div class="col-md-8">    
-            <h2>Objectives</h2>
-            <p>To enhance my working capacities, professional skills and business efficiencies through hard work and dedication so as to achieve greater heights in my career of interest.</p>
-            <h2><strong><i>Work Experience</i></strong></h2>
-            <p>I have been fortunate enough to have worked in several institutions:My first job experience was Independent Electoral and Boundaries Commission. I was positioned as a clerk during the National voters registration.</p>
-            <h2>Hobbies</h2>
-          <ol>
-            <li>Swimming</li>
-            <li>Coding</li>
-            <li>Acting</li>
-            <li>Reading</li>
-            <li>Movies</li>
-            <li>Literature</li>
-          </ol>
-            <h2><strong><i>Interest in Programming</i></strong></h2>
-            <p>For as long as I can remember I have always been facinated by this thing called computer. As i grow up, I held to this notion that one day i'll learn how to code, but my parents ahd a different career path for me. So that was the path i took unitl it dawned on me that its about time i do what i love which is coding. To cut the long story short thats how i found myself here.</p>
+                </div>
+                <!--Resume section end-->
 
-           </div>
-       </div>
-      </div>
-    </section>
-    <section id="projects">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Captain Morgan</h2>
+                <div class="row skills">
+                    <div class="over-div"></div>
+                    <div class="sec-divider"></div>
+                    <h2 class="section-title">My Key Skills</h2>
+                    <div class="skill-container container">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4 skill">
+                                <figure>
+                                    <canvas id="html_css" height="150" width="150"></canvas>
+                                    <figcaption>
+                                        Semantic HTML5 &amp; CSS3
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-4 skill">
+                                <figure>
+                                    <canvas height='150' id='sass' width='150'></canvas>
+                                    <figcaption>
+                                        Python
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class='col-xs-6 col-sm-4 skill'>
+                                <figure>
+                                    <canvas height='150' id='jquery' width='150'></canvas>
+                                    <figcaption>
+                                        jQuery
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class='col-xs-6 col-sm-4 skill'>
+                                <figure>
+                                    <canvas height='150' id='rails' width='150'></canvas>
+                                    <figcaption>
+                                        Javascript
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                        </div>
+                        <!--row end-->
                     </div>
-                    <div class="panel-body">
-                        <img src="imgs/screencapture-jonnygovish-github-io-Captain-Morgan-Web-App-1503971764796.png" alt="website image">
-                    </div>
-                    <div class="panel-footer">
-                        <p>Go to page</p>
-                        <a href="https://jonnygovish.github.io/Captain-Morgan-Web-App/">here</a>
-                    </div>
+                    <!-- skill container end-->
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Anita's Kitchen</h2>
-                    </div>
-                    <div class="panel-body">
-                        <img src="imgs/screencapture-jonnygovish-github-io-Anita-s-Kitchen-1503971829138.png" alt="website image">
-                    </div>
-                    <div class="panel-footer">
-                        <p>Go to page</p>
-                        <a href="https://jonnygovish.github.io/Anita-s-Kitchen/">here</a>
-                    </div>
+                <!--Skill section end-->
+
+                <div class="row footer">
+                    <a href="#">John Mutavi</a> <span>Copyright &copy; 2017 All right reserved</span>
                 </div>
+                <!--footer end-->
             </div>
-            <div class="col-md-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">My favorite pe</h2>
+            <!--Page-info-->
+
+        </div>
+        <!--single page end-->
+
+        <div class="single-page">
+            <div class="page-title">
+                <span><i class="fa fa-briefcase fa-3x"></i></span>
+                <h2>Portfolio</h2>
+                <p class="menu-desc">Some of My Work...</p>
+            </div>
+            <!--page-title end-->
+
+            <!--Portfolio Page Contents-->
+            <div class="page-info container-fluid">
+                <div class="row portfolios">
+                    <div class="portfolio-container">
+
+                        <div class="portfolio-items" id="portfolio">
+
+                            <!--single portfolio item-->
+                            <div class="col-sm-6 col-md-4 mix">
+                                <figure class="effect-roxy">
+                                    <img src="img/p-1.jpg" alt="">
+                                    <figcaption>
+                                        <h2>Project <span>Title</span></h2>
+                                        <p>Description goes here</p>
+                                        <a href="#portfolio9" class="open-portfolio">Explore</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <!--Popup Content-->
+                            <div class="white-popup mfp-hide" id="portfolio9">
+                                <img src="img/p-1.jpg" alt="Portfolio Image">
+                                <h2 class="project-title">Project Title</h2>
+                                <p class="project-desc">Description here</p>
+                                <a href="#" class="project-url btn">See Live</a>
+                            </div>
+                            <!--Single item end-->
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <img src="imgs/screencapture-jonnygovish-github-io-my-pet-website-1503972366217.png" alt="website image">
-                    </div>
-                    <div class="panel-footer">
-                        <p>Go to page</p>
-                        <a href="https://jonnygovish.github.io/my-pet-website/">here</a>
-                    </div>
+                    <!--Portfolio-container-->
                 </div>
+                <!--portfolio section end-->
+                <div class="row footer">
+                    <a href="#">John Mutavi</a> <span>Copyright &copy; 2017 All right reserved</span>
+                </div>
+                <!--footer end-->
             </div>
+            <!--Page-info end-->
+
         </div>
-    </section>
-    <section id="contacts">
-    <div class=" contacts-css" >
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Email</h2>
-          <p><a href="mailto:jonnygovish@gmail.com">jonnygovish@gmail.com</a></p>
-          <h2>Phone</h2>
-          <p>+254728322478</p>
-          <h2>My Network</h2>
-          <p><a href="https://github.com/jonnygovish">Github</a></p>
-          <p><a href="https://www.facebook.com/jgovish">Facebook</a></p>
+        <!--single-page end-->
+
+        <!--Contact Page-->
+        <div class="single-page">
+            <div class="page-title">
+                <span><i class="fa fa-paper-plane fa-3x"></i></span>
+                <h2>Contact</h2>
+                <p class="menu-desc">How to Reach Me...</p>
+            </div>
+            <!--page-title end-->
+
+            <!--Contact Page Contents-->
+            <div class="page-info container-fluid">
+                <div class="row contact">
+                    <div class="over-div"></div>
+                    <div class="sec-divider"></div>
+                    <h2 class="section-title">Drop me a line</h2>
+
+                    <!--form-->
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 form-container">
+                            <form action="" id="contactForm" method="post" name="contactForm">
+                                <fieldset>
+                                    <div>
+                                        <input type="text" id="contactName" placeholder="Name_" size="35" value="">
+                                    </div>
+
+                                    <div>
+                                        <input type="email" id="contactEmail" placeholder="Email" size="35" value="">
+                                    </div>
+
+                                    <div>
+                                        <textarea name="contactMessage" id="contactMessage" cols="5" rows="5" placeholder="Message"></textarea>
+                                    </div>
+
+                                    <div>
+                                        <!--contact-warning-->
+                                        <div id="message-warning">Error boy
+                                        </div>
+                                        <button class="submit">Send <i class="fa fa-angle-right"></i></button>
+                                        <span id="image-loader"><img src="" alt=""></span>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <!--Form End-->
+                            <!--contact-success-->
+                            <div id="message-success">
+                                <i class="fa fa-check"></i>YOur message was sent, thank you!
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Form container End-->
+                    <div class="row social">
+                        <div class="col-md-6 address">
+                            <div class="row location">
+                                <div class="col-md-12 col-lg-10 col-lg-offset-1">
+                                    <ul>
+                                        <li>
+                                            <img src="img/location-map.svg" alt="">
+                                            <h4>Nairobi,Kenya</h4>
+                                        </li>
+                                        <li>
+                                            <img src="img/phone-icon.svg" alt="">
+                                            <h4>+254728322478</h4>
+                                        </li>
+                                        <li>
+                                            <img src="img/email-icon.svg" alt="">
+                                            <h4>jonnygovish@gmail.com</h4>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row social-profiles">
+                                <div class="col-md-12 col-lg-9 col-lg-offset-2">
+                                    <ul>
+                                        <li>
+                                            <a href=""><i class="fa fa-facebook fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""> <i class="fa fa-github fa-2x"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 contact-container">
+                            <div id="contact"><img src="img/Contacts.jpg" alt=""></div>
+                        </div>
+
+                    </div>
+                    <!--Social End-->
+                </div>
+                <!--contact end-->
+
+
+                <div class="row footer">
+                    <a href="#">John Mutavi</a> <span>Copyright &copy; 2017 All right reserved</span>
+                </div>
+                <!--footer end-->
+            </div>
+            <!--page-info end-->
         </div>
-        <div  class="col-md-6">
-          <div id="doc_image">
-          <img src="imgs/contacts.jpg" alt="#">
-        </div>
-        <div id="doc_cont">
-          <p ><strong>Thank you for taking time and viewing my portfolio. Please don't hesitate to drop me an email about yor interest or any questions that you may have.</strong></p>
-        </div>
-      </div>
+        <!--single-page end-->
+
+        <a href="#" class="page-close">Close</a>
+        <a href="#" class="page-scroll">Scroll</a>
+
     </div>
-  </div>
-    </section>
+    <!--page container end-->
+
+    <!--Javascripts-->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false"></script>
+    <script src="js/gmaps.js"></script>
+    <script src="lib/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="lib/mixitup/jquery.mixitup.js"></script>
+    <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!--
+    <script src="js/bootstrap.js"></script>
+    <script src="https://use.fontawesome.com/f618728308.js"></script>
+    <script src="lib/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="lib/mixitup/jquery.mixitup.js"></script>
+    <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+    <script src="js/scripts.js"></script>
+-->
+
 </body>
 
 </html>
