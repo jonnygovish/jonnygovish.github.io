@@ -230,6 +230,7 @@ ul li {
     display: block;
     min-height: 60px;
     padding: 20px 50px;
+    text-align: center;
 }
 
 .footer a {
@@ -239,7 +240,7 @@ ul li {
     padding-right: 40px;
     position: relative;
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase; 
 }
 
 .footer a:after {
