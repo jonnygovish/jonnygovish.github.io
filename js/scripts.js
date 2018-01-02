@@ -134,7 +134,7 @@ var data = {
         value: 5,
         color: "#fff"
     }],
-    sass: [{
+    python: [{
         value: 90,
         color: "#404148"
     }, {
@@ -148,21 +148,21 @@ var data = {
         value: 10,
         color: "#fff"
     }],
-    rails: [{
-        value: 60,
+    javascript: [{
+        value: 80,
         color: "#404148"
     }, {
-        value: 40,
+        value: 20,
         color: "#fff"
     }],
-    backbone: [{
-        value: 50,
+    django: [{
+        value: 70,
         color: "#404148"
     }, {
-        value: 50,
+        value: 30,
         color: "#fff"
     }],
-    photoshop: [{
+    flask: [{
         value: 75,
         color: "#404148"
     }, {
