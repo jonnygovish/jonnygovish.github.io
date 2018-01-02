@@ -153,15 +153,12 @@ ul li {
     transition: box-shadow .4s ease-in-out;
 }
 
-/* ------------------------------------------------
-/*  1.a. Color Schemes for Home Page backgrounds 
-/*  Choose one and comment/remove other two
-/* ------------------------------------------------*/
+
 
 /* Olive Scheme  
 ----------------------------------*/
 
-.single-page:nth-child(1) {
+/* .single-page:nth-child(1) {
     background: #191D21;
 }
 
@@ -175,15 +172,15 @@ ul li {
 
 .single-page:nth-child(4) {
     background: #273a3f;
-}
+} */
 
 
 
 /* Colorful Scheme
 ----------------------------------*/
 
-/*
-.single-page:nth-child(1) {
+
+/* .single-page:nth-child(1) {
   background:#FF6F6F
 }
 
@@ -197,13 +194,13 @@ ul li {
 
 .single-page:nth-child(4) {
   background:#FE7C60
-}
-*/
+} */
+
 
 /* Dark Scheme 
 ----------------------------------*/
 
-/*
+
 .single-page:nth-child(1) {
   background:#14151B
 }
@@ -219,7 +216,7 @@ ul li {
 .single-page:nth-child(4) {
   background:#252733
 }
-*/
+
 
 /* -------------------------------- 
     1.c. Footer Styles
@@ -230,6 +227,7 @@ ul li {
     display: block;
     min-height: 60px;
     padding: 20px 50px;
+    text-align: center;
 }
 
 .footer a {
@@ -239,7 +237,7 @@ ul li {
     padding-right: 40px;
     position: relative;
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase; 
 }
 
 .footer a:after {
@@ -347,7 +345,7 @@ ul li {
 
 .page-container .single-page::before {
     /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-    content: 'img/img-1-small.jpg';
+    content: 'img/Jonny.jpg';
     display: none
 }
 
@@ -652,7 +650,8 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::after {
-        background-image: url("../img/IMG_0766%20(1).JPG")
+        background-image: url("../img/jonte.JPG");
+        background-size: cover;
     }
 
     .page-container .single-page:nth-of-type(2) {
