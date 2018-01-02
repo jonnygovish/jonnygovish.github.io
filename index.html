@@ -130,8 +130,8 @@
 
                             <!-- <ul class="edu-list">
                                 <li>
-                                    <h3>University of Engineering</h3>
-                                    <h4>Bachelor of Science</h4>
+                                    <h3></h3>
+                                    <h4></h4>
                                     <span>2007-2011</span>
                                     <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
                                 </li>
@@ -142,7 +142,7 @@
                                     <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
                                 </li>
                                 <li>
-                                    <h3>School of Amusement</h3>
+                                    <h3></h3>
                                     <h4>O Level</h4>
                                     <span>2000-2005</span>
                                     <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
@@ -153,24 +153,7 @@
                         <div class="col-xs-6 employment">
                             <!-- <h2>- Employment -</h2> -->
                             <!-- <ul class="employemnt-list">
-                                <li>
-                                    <h3>Fantasy IT Kingdom</h3>
-                                    <h4>Lead Developer</h4>
-                                    <span>Dec 2012 - Present</span>
-                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus. </p>
-                                </li>
-                                <li>
-                                    <h3>Awesome Softwares</h3>
-                                    <h4>Front-End Developer</h4>
-                                    <span>Jan 2012-Dec 2012</span>
-                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
-                                </li>
-                                <li>
-                                    <h3>Amazing Developers</h3>
-                                    <h4>Intern Developer</h4>
-                                    <span>Jan 2011- Dec 2011</span>
-                                    <p>Donec ultrices faucibus rutrum. Phasellus sodales vulputate urna, vel accumsan augue egestas ac. Donec vitae leo at sem lobortis porttitor eu consequat risus.</p>
-                                </li>
+                                
                             </ul> -->
                         </div>
                     </div>
@@ -251,10 +234,17 @@
                 <div class="row portfolios">
                     <div class="portfolio-container">
 
+                            <div class="controls">
+                                <button class="filter" data-filter="all">All</button>
+                                <button class="filter" data-filter=".category-1">Web Design</button>
+                                <button class="filter" data-filter=".category-2">App Development</button>
+                                <button class="filter" data-filter=".category-3">Gaphic Design</button>
+                            </div>
+
                         <div class="portfolio-items" id="portfolio">
 
                             <!--single portfolio item-->
-                            <div class="col-sm-6 col-md-4 mix">
+                            <div class="col-sm-6 col-md-4 mix category-1" data-myorder="Web Design">
                                 <figure class="effect-roxy">
                                     <img src="img/nairobis.jpg" alt="">
                                     <figcaption>
@@ -272,23 +262,24 @@
                                 <a href="https://jonny-car-poolers.herokuapp.com/" class="project-url btn">See Live</a>
                             </div>
                             <!--Single item end-->
+
                             <!--single portfolio item-->
-                            <div class="col-sm-6 col-md-4 mix">
+                            <div class="col-sm-6 col-md-4 mix category-2" data-myorder="App Development">
                                 <figure class="effect-roxy">
-                                    <img src="img/Anita-s-Kitchen.png" alt="">
+                                    <img src="img/bubble_blaster.png" alt="">
                                     <figcaption>
-                                        <h2>Anitas  <span>Kitchen</span></h2>
-                                        <p>Best Restaurant in Town....</p>
+                                        <h2><span>Bubble Blaster</span></h2>
+                                        <p>The coolest game in town...</p>
                                         <a href="#portfolio2" class="open-portfolio">Explore</a>
                                     </figcaption>
                                 </figure>
                             </div>
                             <!--Popup Content-->
                             <div class="white-popup mfp-hide" id="portfolio2">
-                                <img src="img/Anita-s-Kitchen.png" alt="Portfolio Image">
+                                <img src="img/bubble_blaster.png" alt="Portfolio Image">
                                 <h2 class="project-title">Anitas Kitchen</h2>
-                                <p class="project-desc"></p>
-                                <a href="https://jonnygovish.github.io/Anita-s-Kitchen/" class="project-url btn">See Live</a>
+                                <p class="project-desc">Bubble Blaster is a game where when a user clicks the play button bubbles are generated randomly across the page. They then have to pop as many bubbles as they can within a limited time span. This is accomplished when the user clicks the bubbles. After the set time is over their score is displayed.</p>
+                                <a href="https://jonnygovish.github.io/Bubble-Blaster-Game/" class="project-url btn">See Live</a>
                             </div>
                         </div>
                     </div>
