@@ -611,7 +611,7 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::after {
-        background-image: url("../img/me.JPG");
+        background-image: url("../img/me1.JPG");
     }
 
     .page-container .single-page:nth-of-type(2) {
@@ -1797,7 +1797,7 @@ button.filter + label {
 
 .social .social-profiles {
     display: block;
-    margin: 0 auto;
+    margin-left: 35em;
     padding-top: 50px;
     float: none;
 }
