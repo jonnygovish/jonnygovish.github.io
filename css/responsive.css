@@ -282,7 +282,7 @@
         font-size: 16px;
         line-height: 20px;
         padding: 0 10px;
-        text-align: left;
+        text-align: center;
     }
 
     .about-me .bio p {
@@ -402,6 +402,10 @@
         width: 100%;
     }
 
+    .about-me .profile-image h3:before{
+        left: 4;
+    }
+
     .about-me .bio h3 {
         margin-top: 5px;
     }
@@ -473,9 +477,14 @@
         width: 160px;
     }
 
+    .about-me .profile-image h3:before{
+        left: 45px;
+    }
+
     .about-me .bio h3 {
         font-size: 16px;
         line-height: 24px;
+        text-align: center;
     }
 
     .about-me .bio p {
