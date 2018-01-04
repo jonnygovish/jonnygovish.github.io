@@ -1,23 +1,6 @@
-/* ==================================================================
 
 
-TOC : 
-
-1. screenwidth greater than 1400px (Large Screens)
-2. screenwidth greater than 1024px (Medium Screen/Large Tablets)
-3. screenwidth less than 1024px (Medium Screen/Large Tablets)
-4. screenwidth less than 960px (Mobile wide/Smaller Tablets)
-5. screenwidth less than 768px (Mobile wide/Smaller Tablets)
-6. screenwidth greater than 480px (Medium Screen Mobile)
-7. screenwidth less than 480px (Small Screen Mobile)
-
-
-/* ================================================================== */
-
-/* Screens Resolution : 1400px+
--------------------------------------------------------------------------- */
-
-@media only screen and (min-width: 1401px) {
+@media  screen and (min-width: 1401px) {
 
     .about-me .bio-inner {
         padding: 70px 30px;
@@ -116,27 +99,12 @@ TOC :
         font-size: 14px;
     }
 
-    .about-me .bio .buttons {
-        margin: 10px auto;
-    }
-
-    .hire-me.btn,
-    .download-resume.btn {
-        padding: 15px;
-        width: 175px;
-        font-size: 12px;
-    }
 
     .about-me .bio-inner {
         padding: 40px 20px;
         position: absolute;
     }
 
-
-    .hire-me.btn:after,
-    .download-resume.btn:after {
-        content: "";
-    }
 
     .education ul li p {
         padding-left: 50px;
@@ -160,7 +128,7 @@ TOC :
 /* screenwidth less than 960px (Mobile wide/Smaller Tablets)
 --------------------------------------------------------------------- */
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
     .about-me .profile-image h2 {
         font-size: 54px;
@@ -189,56 +157,6 @@ TOC :
         width: 100%;
     }
 
-    .hire-me.btn,
-    .download-resume.btn {
-        padding: 15px;
-        width: 150px;
-        font-size: 11px;
-    }
-
-    .service-list {
-        width: 95%;
-    }
-
-    .fun-facts {
-        padding: 10px;
-    }
-
-    .fun-facts ul {
-        width: 100%;
-    }
-
-    .service-list ul li p {
-        padding: 5px 15px;
-    }
-
-
-    .recognition .rec-inner {
-        padding: 100px 50px;
-    }
-
-    .skill-container {
-        padding: 20px;
-    }
-
-    .recognition .rec-list {
-        padding: 30px 10px;
-    }
-
-    .recognition .rec-list ul li span {
-        margin-right: 10px;
-    }
-
-    .recognition .rec-list ul li h3 {
-        font-size: 14px;
-        line-height: 20px;
-        margin: 8px 0 0;
-        padding: 5px;
-    }
-
-    .recognition .rec-list ul li h5 {
-        margin: 0;
-    }
 
     .portfolio-items figure img {
         opacity: 0.4;
@@ -250,11 +168,6 @@ TOC :
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
-    }
-
-
-    .testimonials blockquote p {
-        max-width: 600px;
     }
 
 
@@ -283,15 +196,6 @@ TOC :
         border: none;
     }
 
-    .map-container {
-        float: none;
-        height: 300px;
-        min-height: 0;
-        position: relative;
-        width: 100%;
-    }
-
-
     .location img {
         width: 40px;
     }
@@ -304,34 +208,13 @@ TOC :
         width: 60%;
     }
 
-    .map-container {
-        min-width: 100vw;
-    }
-
-    .fun-facts h3 {
-        font-size: 28px;
-        margin: 5px;
-        padding: 5px;
-    }
-
-    .fun-facts h3 i {
-        font-size: 28px;
-    }
-
-    .fun-facts ul li {
-        border-right: 1px solid #fff;
-    }
-
-    .fun-facts h5 {
-        font-size: 12px;
-    }
 }
 
 
 /* Mobile wide/Smaller Tablets
 ---------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
     .is-full-width .page-title {
         box-shadow: none;
@@ -407,53 +290,6 @@ TOC :
         padding: 0 10px;
     }
 
-    .services {
-        padding: 20px 0 30px;
-    }
-
-    .services .sec-divider {
-        margin: 10px auto 0;
-    }
-
-    .services .section-title {
-        font-size: 24px;
-        padding: 20px;
-    }
-
-    .service-list {
-        width: 90%;
-    }
-
-    .service-list ul li {
-        display: block;
-        float: left;
-        margin: 8px auto;
-        padding: 0 20px;
-        text-align: center;
-        width: 100%;
-    }
-
-    .fun-facts {
-        padding: 5px;
-    }
-
-    .fun-facts ul li {
-        border-right: 1px solid #fff;
-    }
-
-    .fun-facts h3 {
-        font-size: 20px;
-    }
-    .fun-facts h3 i {
-        font-size: 20px;
-    }
-
-    .fun-facts h5 {
-        font-size: 10px;
-        letter-spacing: 0;
-        margin: 5px auto;
-        padding: 2px 0;
-    }
 
     .footer {
         padding: 20px 10px;
@@ -502,87 +338,11 @@ TOC :
         padding-right: 20px;
     }
 
-    .skills {
-        padding: 20px 0;
-    }
-
-    .skills .sec-divider {
-        margin: 10px auto 0;
-    }
-
-    .skills .section-title {
-        font-size: 24px;
-        padding: 20px;
-    }
-
-    .skill-container {
-        margin: 10px auto;
-    }
-
-
-    .skills figure canvas {
-        height: 100px !important;
-        width: 100px !important;
-    }
-
-    .skill-container .skill figcaption {
-        font-size: 13px;
-        padding: 10px;
-    }
-
-
-    .recognition .rec-desc {
-        display: block;
-        float: none;
-        min-height: 0;
-        width: 100%;
-        padding: 0;
-    }
-
-    .recognition .rec-desc h2 {
-        font-size: 24px;
-    }
-
-    .recognition .rec-list {
-        display: block;
-        float: none;
-        margin-left: 50px;
-        padding: 30px 5px;
-        width: 100%;
-    }
-
-    .recognition .rec-inner {
-        padding: 30px;
-        position: relative;
-    }
 
     .portfolio-items figure.effect-roxy figcaption {
         padding: 2em;
     }
 
-
-    .testimonials {
-        padding: 20px 0;
-    }
-
-    .testimonials .sec-divider {
-        margin: 20px auto;
-    }
-
-    .testimonials .text-container {
-        padding-bottom: 20px;
-    }
-
-    .testimonials .section-title {
-        font-size: 24px;
-        margin: 10px auto 20px;
-        padding: 10px;
-    }
-
-    .testimonials blockquote p {
-        font-size: 14px;
-        max-width: 350px;
-    }
 
     .white-popup {
         max-width: 95%;
@@ -609,12 +369,7 @@ TOC :
         padding: 10px;
     }
 
-    .form-container {
-        margin: 30px auto;
-        padding: 20px;
-        width: 90%;
-    }
-
+    
     .address {
         padding: 60px 0;
     }
@@ -623,9 +378,6 @@ TOC :
         width: 100%;
     }
 
-    .map-container {
-        height: 220px;
-    }
 
     .footer a {
         font-size: 11px;
@@ -643,7 +395,7 @@ TOC :
 /* Medium Screen Mobile
   -------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
 
     .about-me .profile-image {
         padding: 20px;
@@ -652,41 +404,6 @@ TOC :
 
     .about-me .bio h3 {
         margin-top: 5px;
-    }
-
-    .hire-me.btn,
-    .download-resume.btn {
-        font-size: 12px;
-        padding: 15px;
-        width: 100%;
-    }
-
-    .service-list .service {
-        margin: 10px auto;
-    }
-
-
-    .service-list .service p {
-        padding: 5px;
-    }
-
-
-
-    .fun-facts ul li {
-        border-right: 1px solid #fff;
-        float: left;
-        margin: 20px auto;
-    }
-
-    .fun-facts h3 i,
-    .fun-facts h3 i {
-        font-size: 18px;
-        line-height: 18px;
-    }
-
-    .fun-facts h5 {
-        font-size: 8px;
-        letter-spacing: 0;
     }
 
     .resume .education h2,
@@ -725,46 +442,6 @@ TOC :
         line-height: 22px;
     }
 
-    .skill-container .skill figcaption {
-        font-size: 10px;
-        text-align: center;
-    }
-
-    .recognition .rec-list {
-        margin-left: 15px;
-    }
-
-    .testimonials blockquote p {
-        font-size: 13px;
-        max-width: 300px;
-    }
-
-    .testimonials blockquote p:before {
-        font-size: 16px;
-    }
-
-    .testimonials blockquote p:after {
-        font-size: 16px;
-        margin-left: 3px;
-    }
-
-    .testimonials blockquote cite {
-        font-weight: bold;
-    }
-
-    .form-container input {
-        width: 100%;
-        display: block;
-        float: none;
-        padding: 15px;
-        margin: 10px auto;
-    }
-
-    .form-container textarea,
-    .form-container button {
-        padding: 15px;
-        margin: 10px auto;
-    }
 
     .social .social-profiles ul {
         width: 100%;
@@ -783,10 +460,6 @@ TOC :
         padding: 45px 0;
     }
 
-    .map-container {
-        height: 200px;
-    }
-
 
 }
 
@@ -794,7 +467,7 @@ TOC :
 /* Small Screen Mobile
   -------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 320px) {
+@media  screen and (max-width: 320px) {
 
     .pp-container {
         width: 160px;
@@ -810,24 +483,6 @@ TOC :
         padding: 0 5px;
     }
 
-    .service-list ul li {
-        margin: 3px auto;
-    }
-
-    .service-list ul li p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .fun-facts h3 {
-        font-size: 18px;
-        line-height: 18px;
-    }
-
-    .fun-facts h5 {
-        font-size: 7px;
-        line-height: 7px;
-    }
 
     .footer a {
         font-size: 10px;
@@ -857,57 +512,11 @@ TOC :
         padding-right: 10px;
     }
 
-    .recognition .rec-list {
-        margin-left: 5px;
-    }
-
-    .recognition .rec-list ul li h3 {
-        font-size: 12px;
-        line-height: 18px;
-    }
-
-    .recognition .rec-list ul li h5 {
-        font-size: 12px;
-    }
-
-    .recognition .rec-list ul li h4 {
-        font-size: 11px;
-    }
-
-    .recognition .rec-list ul li span {
-        font-size: 70px;
-    }
-
-    .skill-container .skill {
-        padding: 0;
-    }
-
 
     .portfolio-items figure {
         max-height: 360px;
         max-width: 300px;
         min-width: 270px;
-    }
-
-
-    .testimonials blockquote {
-        margin: 0 0 20px;
-    }
-
-    .testimonials blockquote p {
-        font-size: 12px;
-        line-height: 24px;
-        max-width: 270px;
-    }
-
-    .testimonials blockquote p:before {
-        font-size: 14px;
-        margin-left: -16px;
-    }
-
-    .testimonials blockquote p:after {
-        font-size: 14px;
-        margin-left: 3px;
     }
 
     .location img {
@@ -925,10 +534,6 @@ TOC :
         min-width: 310px;
     }
 
-
-    .map-container {
-        height: 180px;
-    }
 
 }
 

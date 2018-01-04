@@ -292,7 +292,7 @@ ul li {
     left: 0;
     height: 25vh;
     width: 100%;
-    background-image: url("../img/me.jpg");
+    background-image: url("../img/me1.JPG");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -305,7 +305,7 @@ ul li {
 
 .page-container .single-page::before {
     /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-    content: 'img/me.jpg';
+    content: 'img/me1.jpg';
     display: none
 }
 
@@ -589,7 +589,7 @@ ul li {
 /* Screens Resolution : 768px+
 --------------------------------------------------------------------- */
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 
     .page-container .single-page {
@@ -607,7 +607,7 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::before {
-        content: 'img/img-1-large.jpg';
+        content: 'img/me1.jpg';
     }
 
     .page-container .single-page:first-of-type::after {
@@ -646,7 +646,7 @@ ul li {
     }
 
     .page-container .single-page:nth-of-type(4)::before {
-        content: 'img/img-4-large.jpg'
+        content: 'img/p-5.jpg'
     }
 
     .page-container .single-page:nth-of-type(4)::after {
@@ -695,7 +695,7 @@ ul li {
     }
 
     .page-title h2 {
-        font-family: "PT Sans", sans-serif;
+        font-family: "Merriweather", serif;
         font-size: 2.25em;
         font-weight: 700;
         letter-spacing: 1px;
@@ -841,6 +841,7 @@ ul li {
     width: 100%;
     text-align: center;
 }
+
 .bio-col{
     margin-top: 6em;
 }
@@ -861,89 +862,6 @@ ul li {
 
 }
 
-/* ----------------------------------------------------
-/* 4.a. Services styles
-/* ---------------------------------------------------- */
-
-.services {
-    background: none repeat scroll 0 0 #ff6f6f;
-    padding: 35px 0 50px;
-    position: relative;
-}
-
-.services .sec-divider {
-    background: url('../img/services-icon.svg') no-repeat scroll center center rgba(0, 0, 0, 0);
-    display: block;
-    height: 52px;
-    margin: 30px auto 0;
-    width: 52px;
-}
-
-.services .section-title {
-    color: #FFF;
-    font-family: "Merriwaeather", serif;
-    font-size: 24px;
-    font-style: italic;
-    margin: 5px auto;
-    padding: 20px;
-    position: relative;
-    text-align: center;
-}
-
-.service-list {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 50px;
-    position: relative;
-}
-
-.service-list .service {
-    display: inline-block;
-    text-align: center;
-    margin: 15px auto;
-}
-
-.service-list .service h3 {
-    color: #fff;
-    font-family: "PT Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 15px auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.service-list .service p {
-    color: #f9f9f9;
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 5px 10px;
-}
-
-.service-list .service span i {
-    background: none repeat scroll 0 0 #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.15);
-    color: #ff6f6f;
-    display: block;
-    font-size: 36px;
-    height: 60px;
-    line-height: 60px;
-    margin: 25px auto;
-    text-align: center;
-    width: 60px;
-    cursor: pointer;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
-.service-list .service span i:hover {
-    box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.15);
-}
 
 /* ----------------------------------------------------
 /* 5. Resume Styles
@@ -1039,92 +957,6 @@ ul li {
     padding-right: 150px;
 }
 
-/* #area {
-    margin: 20px;
-    position: relative;
-    width: 326px;
-    height: 90px;
-}
-
-#blue_circle, #yellow_circle, #black_circle, #green_circle, #red_circle {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    background: transparent;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5), inset 2px 2px 4px rgba(0,0,0,.5);
-    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0,0,0,.5);  
-    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0,0,0,.5);
-}
-#blue_circle {
-    border: 8px solid blue;
-    z-index: 1;
-}
-
-#yellow_circle {
-    border: 8px solid yellow;
-    z-index: 2;
-    top: 45px;
-    left: 55px;
-}
-
-#black_circle {
-    border: 8px solid black;
-    z-index: 1;
-    left: 110px;
-}
-
-#green_circle {
-    border: 8px solid green;
-    z-index: 2;
-    top: 45px;
-    left: 165px;
-}
-
-#red_circle {
-    border: 8px solid red;
-    z-index: 1;
-    left: 220px;
-}
-
-#blue_p, #black_p, #red_p {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    -moz-border-radius: 100%;
-    -webkit-border-radius: 100%;
-    border-radius: 100%;
-    z-index: 3;
-}
-
-#blue_p {
-    border: 8px solid blue;
-    border-bottom-color: transparent;
-    border-top-color: transparent;
-    border-left-color: transparent;
-}
-
-#black_p {
-    border: 8px solid black;
-    border-bottom-color: transparent;
-    border-top-color: transparent;
-    -webkit-transform: rotate(-46deg);
-    -moz-transform: rotate(-46deg);
-    -ms-transform: rotate(-46deg);
-    -o-transform: rotate(-46deg);
-    transform: rotate(-46deg);
-    left:110px;
-}
-
-#red_p {
-    border: 8px solid red;
-    border-left-color: transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    left:220px;
-} */
 
 .circle-container {
     position: relative;
@@ -1253,105 +1085,9 @@ ul li {
     }
   }
   
-
-/* ------------------------------------------------
-/*  5.a. Skills Styles
-/* ------------------------------------------------*/
-
-.skills {
-    background: none repeat scroll 0 0 #0ed4c8;
-    overflow: hidden;
-    padding: 35px 0;
-    position: relative;
-}
-
-.skills .sec-divider {
-    background: url("../img/ninja.svg") no-repeat scroll center center rgba(0, 0, 0, 0);
-    display: block;
-    height: 52px;
-    margin: 30px auto 0;
-    width: 52px;
-}
-
-.skills .section-title {
-    color: #fff;
-    font-family: "Merriweather", serif;
-    font-size: 24px;
-    font-style: italic;
-    margin: 5px auto;
-    padding: 20px;
-    text-align: center;
-}
-
-.skills figure {
-    margin: 0 0 20px;
-    text-align: center;
-}
-
-.skill-container .skill figcaption {
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 5px;
-    text-transform: uppercase
-}
-
-.skill-container {
-    display: block;
-    margin: 30px auto;
-}
-
-.skill-container .skill {
-    color: #fff;
-    margin-bottom: 20px;
-}
-
 /* ----------------------------------------------------
 /* 6. Portfolio Styles
 /* ---------------------------------------------------- */
-
-.controls {
-    padding: 2%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-button.filter {
-    background: #f3f3f3;
-    border: 0 none;
-    color: #777;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 300;
-    padding: 10px 20px;
-    margin: 5px auto;
-    text-transform: uppercase;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s
-}
-
-button.filter.active {
-    background: #3f3f46;
-    color: #fff;
-
-}
-
-button.filter:focus {
-    outline: 0 none;
-}
-
-button.filter:hover {
-    background: #404148;
-    color: #fff;
-}
-
-button.filter + label {
-    margin-left: 1em
-}
 
 .portfolio-container {
     background: none repeat scroll 0 0 #f9f9f9;
@@ -1612,125 +1348,6 @@ button.filter + label {
     text-align: center;
 }
 
-.form-container {
-    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
-    margin-bottom: 70px;
-    padding: 40px;
-    position: relative;
-}
-
-.form-container input {
-    background: none repeat scroll 0 0 transparent;
-    border: 1px solid #d9d9da;
-    color: #3f3f46;
-    float: left;
-    font-size: 14px;
-    margin: 15px auto;
-    padding: 20px;
-    width: 48%;
-}
-
-.form-container input:focus,
-.form-container textarea:focus {
-    background: #f4f4f4;
-}
-
-.form-container textarea {
-    background: none repeat scroll 0 0 transparent;
-    border: 1px solid #d9d9da;
-    color: #3f3f46;
-    font-size: 16px;
-    margin: 15px auto;
-    padding: 20px;
-    width: 100%;
-}
-
-.form-container button {
-    background: transparent;
-    width: 100%;
-    margin: 15px auto;
-    padding: 20px;
-    border: 1px solid #d9d9da;
-    cursor: pointer;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.form-container button:hover {
-    color: #3f3f46;
-    border: 1px solid #3f3f46;
-}
-
-.form-container input[type="email"] {
-    float: right;
-}
-
-#message-warning {
-    background: #ff6f6f;
-    display: none;
-    font-size: 16px;
-    margin: 5px auto;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-}
-
-#message-success {
-    background: #6BD57E;
-    color: #fff;
-    display: none;
-    font-size: 16px;
-    margin: 5px auto;
-    padding: 20px;
-    text-align: center;
-}
-
-#message-warning i,
-#message-success i {
-    margin-right: 10px
-}
-
-#image-loader {
-    display: none;
-    position: relative
-}
-
-#image-loader img {
-    display: block;
-    margin: 0 auto
-}
-
-::-webkit-input-placeholder {
-    color: #3f4047;
-    font-size: 14px;
-    font-family: "Merriweather", sans-serif
-}
-
-:-moz-placeholder {
-    /* Firefox 18- */
-    color: #3f4047;
-    font-size: 14px;
-    font-family: "Merriweather", sans-serif
-}
-
-::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #3f4047;
-    font-size: 14px;
-    font-family: "Merriweather", sans-serif
-}
-
-:-ms-input-placeholder {
-    color: #3f4047;
-    font-size: 14px;
-    font-family: "Merriweather", sans-serif
-}
-
-/* -------------------------------- 
-/* 7.a.  Social and Map Styles
------------------------------------ */
-
 .social {
     width: 100%;
     display: block;
@@ -1745,17 +1362,6 @@ button.filter + label {
     width: 100%;
 }
 
-/* .address:after {
-    border-right: 403px solid transparent;
-    border-top: 403px solid #F4775c;
-    content: "";
-    height: 100%;
-    position: absolute;
-    right: -403px;
-    top: 0;
-    width: 100%;
-    z-index: 2
-} */
 
 .location ul {
     display: block;
@@ -1858,7 +1464,3 @@ button.filter + label {
     height: 400px;
     margin: 0 auto
 }
-
-/* #contact img {
-    max-width: inherit!important
-} */
