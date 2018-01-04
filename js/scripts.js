@@ -9,7 +9,7 @@ $(window).load(function(){
 
 // Global document ready function
 
-jQuery(document).ready(function($) {
+$(document).ready(function($) {
 //check if background-images have been loaded and show single pages
 $('.single-page').bgLoaded({
     afterLoaded: function() {
@@ -56,8 +56,8 @@ function toggleProject(project, container, bool) {
         container.removeClass('project-is-open');
         //fade out page
         project.animate({
-            opacity: 0
-        }, 800, function() {
+            height: 'toggle'
+        }, 500, function() {
             project.removeClass('is-loaded');
             $('.page-container').find('.page-scroll').attr('style', '');
             setTimeout(function() {
@@ -100,81 +100,16 @@ $('.open-portfolio').magnificPopup({
 
 // Mixitup Filter
 
-$(function() {
-    // Instantiate MixItUp:
-    $('#portfolio').mixItUp();
-});
+// $(function() {
+//     // Instantiate MixItUp:
+//     $('#portfolio').mixItUp();
+// });
 
 
 
 
-// Skills Chart
 
-var options = {
-    //segmentShowStroke: false,
-    percentageInnerCutout: 70,
-    //animation: true,
-    animationEasing: 'easeOutQuint',
-    //animateRotate: false,
-    animateScale: true
-};
-var data = {
-    html_css: [{
-        value: 95,
-        color: "#404148"
-    }, {
-        value: 5,
-        color: "#fff"
-    }],
-    python: [{
-        value: 90,
-        color: "#404148"
-    }, {
-        value: 10,
-        color: "#fff"
-    }],
-    jquery: [{
-        value: 90,
-        color: "#404148"
-    }, {
-        value: 10,
-        color: "#fff"
-    }],
-    javascript: [{
-        value: 80,
-        color: "#404148"
-    }, {
-        value: 20,
-        color: "#fff"
-    }],
-    django: [{
-        value: 70,
-        color: "#404148"
-    }, {
-        value: 30,
-        color: "#fff"
-    }],
-    flask: [{
-        value: 75,
-        color: "#404148"
-    }, {
-        value: 25,
-        color: "#fff"
-    }]
-};
 
-var offset = 0;
-$.each(data, function(key, data) {
-    var canvas = document.querySelector('#' + key);
-    if (canvas) {
-        offset += 250;
-        setTimeout(function() {
-            var ctx = canvas.getContext('2d');
-            var chart = new Chart(ctx);
-            chart.Doughnut(data, options);
-        }, offset);
-    }
-});
 
 
 

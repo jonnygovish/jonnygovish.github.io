@@ -5,8 +5,8 @@
 	 width="44px" height="44px" viewBox="16 -14 44 44" enable-background="new 16 -14 44 44" xml:space="preserve">
 <g>
 	
-		<line fill="none" stroke="#7B828E" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="24" y1="-6" x2="52" y2="22"/>
+		<line fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="24" y1="-6" x2="52" y2="22"/>
 	
-		<line fill="none" stroke="#7B828E" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="52" y1="-6" x2="24" y2="22"/>
+		<line fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="52" y1="-6" x2="24" y2="22"/>
 </g>
 </svg>
