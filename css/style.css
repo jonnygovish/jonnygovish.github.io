@@ -292,7 +292,7 @@ ul li {
     left: 0;
     height: 25vh;
     width: 100%;
-    background-image: url("../img/Jonny.jpg");
+    background-image: url("../img/me.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -305,7 +305,7 @@ ul li {
 
 .page-container .single-page::before {
     /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-    content: 'img/Jonny.jpg';
+    content: 'img/me.jpg';
     display: none
 }
 
@@ -314,7 +314,7 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(2)::after {
-    background-image: url("../img/img-2-small.jpg")
+    background-image: url("../img/img-2-large.jpg")
 }
 
 .page-container .single-page:nth-of-type(2)::before {
@@ -326,7 +326,7 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(3)::after {
-    background-image: url("../img/img-3-small.jpg")
+    background-image: url("../img/img-3-large.jpg")
 }
 
 .page-container .single-page:nth-of-type(3)::before {
@@ -338,11 +338,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(4)::after {
-    background-image: url("../img/img-4-small.jpg")
+    background-image: url("../img/p-5.jpg")
 }
 
 .page-container .single-page:nth-of-type(4)::before {
-    content: 'img/img-4-small.jpg'
+    content: 'img/p-5.jpg'
 }
 
 .page-container .single-page.is-loaded {
