@@ -10,6 +10,10 @@
         font-size: 96px;
     }
 
+    .about-me .profile-image h3:before{
+        left: 180px;
+    }
+
     .about-me .profile-image h3 {
         font-size: 21px;
         line-height: 1.8em;
@@ -95,6 +99,10 @@
         padding: 40px 20px;
     }
 
+    .about-me .profile-image h3:before{
+        left: 105px;
+    }
+
     .about-me .bio p {
         font-size: 14px;
     }
@@ -136,6 +144,10 @@
 
     .about-me .profile-image h3 {
         font-size: 14px;
+    }
+
+    .about-me .profile-image h3:before{
+        left: 52px;
     }
 
     .about-me .bio {
@@ -401,9 +413,16 @@
         padding: 20px;
         width: 100%;
     }
+    .about-me .profile-image .name{
+        margin-top: 2em;
+    }
 
     .about-me .profile-image h3:before{
-        left: 4;
+        left: 84px;
+    }
+    
+    .about-me  .bio-inner .bio-col  {
+        margin-top: 2em;
     }
 
     .about-me .bio h3 {
