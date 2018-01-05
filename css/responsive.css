@@ -80,7 +80,7 @@
     }
 
     .social .social-profiles{
-        margin-left: 23em;
+        margin-left: 22em;
     }
 }
 
@@ -575,6 +575,9 @@
         min-width: 270px;
     }
 
+    .locaion {
+        margin-left: 70px;
+    }
     .location img {
         width: 36px;
     }
