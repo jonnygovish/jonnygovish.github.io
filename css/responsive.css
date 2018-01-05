@@ -512,6 +512,10 @@
     .location ul li:last-child {
         padding-left: 13px;
     }
+
+    .social .social-profiles{
+        margin-left: 6em;
+    }
 }
 
 
