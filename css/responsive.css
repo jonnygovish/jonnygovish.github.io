@@ -78,6 +78,10 @@
         -o-transform: scale(1);
         transform: scale(1);
     }
+
+    .social .social-profiles{
+        margin-left: 23em;
+    }
 }
 
 /* min-width: 1024px end*/
@@ -85,7 +89,7 @@
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .page-title h2 {
         font-size: 1.25em;
@@ -208,6 +212,10 @@
         border: none;
     }
 
+    .location {
+        margin-left: 184px;
+    }
+
     .location img {
         width: 40px;
     }
@@ -218,6 +226,10 @@
 
     .social-profiles ul {
         width: 60%;
+    }
+
+    .social .social-profiles{
+        margin-left: 8em;
     }
 
 }
@@ -465,6 +477,9 @@
         line-height: 22px;
     }
 
+    .social .social-profiles{
+        margin-left: 9em;
+    }
 
     .social .social-profiles ul {
         width: 100%;
@@ -483,7 +498,20 @@
         padding: 45px 0;
     }
 
+    .location {
+        margin-left: 93px;
+    }
 
+    .location ul li:last-child {
+        padding-left: 13px;
+    }
+
+
+}
+@media screen and (max-width: 375px){
+    .location ul li:last-child {
+        padding-left: 13px;
+    }
 }
 
 
@@ -553,6 +581,14 @@
 
     .location h4 {
         font-size: 9px;
+    }
+
+    .location ul li:last-child {
+        padding-left: 7px;
+    }
+
+    .social .social-profiles{
+        margin-left: 6em;
     }
 
     .social .social-profiles ul {

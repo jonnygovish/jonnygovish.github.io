@@ -781,9 +781,7 @@ ul li {
 
 } */
 
-.about-me .profile-image img:hover {
-    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
-}
+
 .about-me .name {
     margin-top: 6em
 }
@@ -1360,13 +1358,16 @@ ul li {
 }
 
 .address {
-    background: none repeat scroll 0 0 #fe7c60;
-    /* min-height: 400px; */
+    background: none repeat scroll 0 0 #50626C;
+    min-height: 400px;
     padding: 100px 0;
     position: relative;
     width: 100%;
 }
 
+.location{
+    margin-left: 244px;
+}
 
 .location ul {
     display: block;
@@ -1379,6 +1380,11 @@ ul li {
     display: inline-block;
     float: left;
     width: 33.333%;
+}
+
+.location ul li a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .location ul li:last-child {
@@ -1400,7 +1406,7 @@ ul li {
     font-weight: 700;
     margin: 5px auto;
     text-align: center;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 
@@ -1408,7 +1414,7 @@ ul li {
 
 .social .social-profiles {
     display: block;
-    margin-left: 35em;
+    margin-left: 34em;
     padding-top: 50px;
     float: none;
 }
