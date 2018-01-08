@@ -893,40 +893,40 @@ ul li {
     padding: 20px;
     text-align: center;
 }
+.skill-opt1{
+    display: none;
+}
 
-.resume .education ul,
-.resume .employment ul {
+.resume .skills ul{
     margin: 0;
     padding: 0;
 }
 
-.resume .education {
-    text-align: right;
+.resume .skills {
     padding-right: 50px;
 }
 
-.resume .employement {
+/* .resume .employement {
     text-align: left;
     position: relative;
     padding-left: 50px;
-}
+} */
 
-.resume .education h2,
+/* .resume .skills h2,
 .resume .employment h2 {
     color: #3f3f46;
     font-size: 18px;
     letter-spacing: 1px;
     padding: 36px 0;
     text-transform: uppercase;
-}
+} */
 
-.education ul li {
+.skills ul li {
     display: block;
     margin: 20px 0;
 }
 
-.education ul li h3,
-.employment ul li h3 {
+.skills ul li h3 {
     color: #636368;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
@@ -935,158 +935,12 @@ ul li {
     padding: 5px 0;
     text-transform: uppercase
 }
-
-.education ul li span,
-.employment ul li span {
-    color: #0ed4c8;
-    display: inline-block;
-    margin: 5px 0 10px;
-    font-size: 13px;
-}
-
-.education ul li p,
-.employment ul li p {
+.skills ul li p {
     color: #838c95;
     font-size: 14px;
     line-height: 24px;
     padding: 5px 0;
 }
-
-.education ul li p {
-    padding-left: 150px;
-}
-
-.employment ul li p {
-    padding-right: 150px;
-}
-
-
-.circle-container {
-    position: relative;
-    margin: 0 auto;
-  }
-  @media screen and (min-width: 31.25rem) {
-    .circle-container {
-      width: 36.25rem;
-      max-width: 100%;
-    }
-    .circle-container:before {
-      content: '';
-      width: 100%;
-      display: block;
-      padding-top: 100%;
-    }
-  }
-  @media screen and (min-width: 31.25rem) {
-    .circle-container__inner {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      padding: 7.1875rem;
-      margin-top: 13em;
-    }
-  }
-  
-  .inner-circle {
-    height: 100%;
-    border-radius: 50%;
-    position: relative;
-  }
-  .inner-circle__item {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    text-align: center;
-    mix-blend-mode: multiply;
-    margin: 0 auto;
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item {
-      width: 64%;
-      height: 64%;
-      position: absolute;
-      margin: 0;
-    }
-  }
-  .inner-circle__item span {
-    display: block;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    font-family: sans-serif;
-    font-size: 14px;
-    color: #5a5351;
-  }
-  .inner-circle__item:nth-child(n+2) {
-    margin-top: -3.125rem;
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(n+2) {
-      margin-top: 0;
-    }
-  }
-  .inner-circle__item:nth-child(1) {
-    background: rgba(160, 189, 213, 0.9);
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(1) {
-      top: 0;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-      z-index: 1;
-    }
-  }
-  .inner-circle__item:nth-child(2) {
-    background: rgba(202, 202, 202, 0.9);
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(2) {
-      top: -6.4%;
-      left: -24.7%;
-    }
-  }
-  .inner-circle__item:nth-child(3) {
-    background: rgba(211, 175, 210, 0.9);
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(3) {
-      bottom: -6.4%;
-      left: -24.7%;
-    }
-  }
-  .inner-circle__item:nth-child(4) {
-    background: rgba(242, 223, 104, 0.9);
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(4) {
-      bottom: 0;
-      left: 50%;
-      -webkit-transform: translate(-50%, 50%);
-              transform: translate(-50%, 50%);
-    }
-  }
-  .inner-circle__item:nth-child(5) {
-    background: rgba(249, 172, 74, 0.9);
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(5) {
-      bottom: -6.4%;
-      right: -24.7%;
-    }
-  }
-  .inner-circle__item:nth-child(6) {
-    background: rgba(222, 232, 114, 0.9);
-  }
-  @media screen and (min-width: 31.25rem) {
-    .inner-circle__item:nth-child(6) {
-      top: -6.4%;
-      right: -24.7%;
-    }
-  }
   
 /* ----------------------------------------------------
 /* 6. Portfolio Styles
@@ -1127,7 +981,7 @@ ul li {
 .white-popup img {
     margin: 0 auto;
     display: block;
-    width: 100%
+    width: 90%
 }
 
 .project-title {
@@ -1232,7 +1086,7 @@ ul li {
 
 
 .portfolio-items figure h2 {
-    word-spacing: -0.15em;
+    /* word-spacing: -0.15em; */
     font-weight: 300;
 }
 
@@ -1329,7 +1183,7 @@ ul li {
 .contact {
     background: none repeat scroll 0 0 #f2f2f2;
     overflow: hidden;
-    padding: 35px 0 0;
+    /* padding: 35px 0 0; */
     position: relative;
 }
 
@@ -1359,15 +1213,15 @@ ul li {
 
 .address {
     background: none repeat scroll 0 0 #50626C;
-    min-height: 400px;
-    padding: 100px 0;
+    /* min-height: 400px; */
+    /* padding: 100px 0; */
     position: relative;
     width: 100%;
 }
 
-.location{
+/* .location{
     margin-left: 244px;
-}
+} */
 
 .location ul {
     display: block;
@@ -1377,9 +1231,9 @@ ul li {
 
 .location ul li {
     border-right: 1px solid #f3f3f3;
-    display: inline-block;
+    /* display: inline-block;
     float: left;
-    width: 33.333%;
+    width: 33.333%; */
 }
 
 .location ul li a{
@@ -1402,7 +1256,7 @@ ul li {
 .location h4 {
     color: #f3f3f3;
     font-family: "PT Sans", sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
     margin: 5px auto;
     text-align: center;
@@ -1414,7 +1268,7 @@ ul li {
 
 .social .social-profiles {
     display: block;
-    margin-left: 34em;
+    /* margin-left: 34em; */
     padding-top: 50px;
     float: none;
 }

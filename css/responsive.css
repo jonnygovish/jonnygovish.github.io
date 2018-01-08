@@ -36,8 +36,9 @@
         font-size: 68.5%;
         letter-spacing: 1px;
     }
-
-}
+    .social-profiles {
+        margin-left: 35em;
+    }
 
 /* Screens Resolution : 1024px+
 -------------------------------------------------------------------------- */
@@ -80,7 +81,7 @@
     }
 
     .social .social-profiles{
-        margin-left: 22em;
+        margin-left: 33em;
     }
 }
 
@@ -130,11 +131,12 @@
         padding: 50px 10px;
     }
 
-    .social-profiles ul {
+    /* .social-profiles ul {
         width: 90%;
+    } */
+    .social-profiles {
+        margin-left: 22em;
     }
-
-}
 
 
 /* screenwidth less than 960px (Mobile wide/Smaller Tablets)
@@ -212,24 +214,24 @@
         border: none;
     }
 
-    .location {
+    /* .location {
         margin-left: 184px;
-    }
+    } */
 
     .location img {
         width: 40px;
     }
 
     .location h4 {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
 
-    .social-profiles ul {
+    /* .social-profiles ul {
         width: 60%;
-    }
+    } */
 
     .social .social-profiles{
-        margin-left: 8em;
+        margin-left: 15em;
     }
 
 }
@@ -358,11 +360,6 @@
         padding-left: 20px;
     }
 
-    .employment ul li p {
-        padding-right: 20px;
-    }
-
-
     .portfolio-items figure.effect-roxy figcaption {
         padding: 2em;
     }
@@ -380,9 +377,9 @@
         font-size: 13px;
     }
 
-    .contact {
+    /* .contact {
         padding: 20px 0;
-    }
+    } */
 
     .contact .sec-divider {
         margin: 20px auto;
@@ -398,9 +395,9 @@
         padding: 60px 0;
     }
 
-    .social .social-profiles ul {
+    /* .social .social-profiles ul {
         width: 100%;
-    }
+    } */
 
 
     .footer a {
@@ -441,13 +438,18 @@
         margin-top: 5px;
     }
 
-    .resume .education h2,
-    .resume .employment h2 {
+    .skill-opt1{
+        display: block;
+    }
+    .skill-opt2{
+        display: none;
+    }
+
+    .resume .skills h2,{
         font-size: 13px;
     }
 
-    .education ul li h3,
-    .employment ul li h3 {
+    .skills ul li h3,{
         font-size: 12px;
     }
 
@@ -478,13 +480,13 @@
     }
 
     .social .social-profiles{
-        margin-left: 9em;
+        margin-left: 6em;
     }
 
-    .social .social-profiles ul {
+    /* .social .social-profiles ul {
         width: 100%;
         padding: 0;
-    }
+    } */
 
     .social-profiles ul li a i {
         font-size: 18px;
@@ -495,26 +497,22 @@
 
     .address {
         min-height: 240px;
-        padding: 45px 0;
+        padding: 0;
     }
 
-    .location {
-        margin-left: 93px;
-    }
-
-    .location ul li:last-child {
+    /* .location ul li:last-child {
         padding-left: 13px;
-    }
+    } */
 
 
 }
 @media screen and (max-width: 375px){
-    .location ul li:last-child {
+    /* .location ul li:last-child {
         padding-left: 13px;
-    }
+    } */
 
     .social .social-profiles{
-        margin-left: 6em;
+        margin-left: 4em;
     }
 }
 
@@ -568,9 +566,7 @@
         padding-left: 10px;
     }
 
-    .employment ul li p {
-        padding-right: 10px;
-    }
+   
 
 
     .portfolio-items figure {
@@ -579,22 +575,20 @@
         min-width: 270px;
     }
 
-    .locaion {
-        margin-left: 70px;
-    }
+    
     .location img {
         width: 36px;
     }
 
     .location h4 {
-        font-size: 9px;
+        /* font-size: 9px; */
     }
 
-    .location ul li:last-child {
+    /* .location ul li:last-child {
         padding-left: 7px;
-    }
+    } */
 
-    .social .social-profiles{
+    /* .social .social-profiles{
         margin-left: 6em;
     }
 
@@ -603,7 +597,7 @@
         padding: 0;
         width: 100%;
         min-width: 310px;
-    }
+    } */
 
 
 }
