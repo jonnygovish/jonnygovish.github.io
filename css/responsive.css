@@ -37,9 +37,11 @@
         letter-spacing: 1px;
     }
     .social-profiles {
-        margin-left: 35em;
+        margin-left: 36em;
     }
 
+
+}
 /* Screens Resolution : 1024px+
 -------------------------------------------------------------------------- */
 
@@ -81,7 +83,7 @@
     }
 
     .social .social-profiles{
-        margin-left: 33em;
+        margin-left: 34em;
     }
 }
 
@@ -135,10 +137,10 @@
         width: 90%;
     } */
     .social-profiles {
-        margin-left: 22em;
+        margin-left: 23em;
     }
 
-
+}
 /* screenwidth less than 960px (Mobile wide/Smaller Tablets)
 --------------------------------------------------------------------- */
 
@@ -199,7 +201,9 @@
     .project-url.btn:after {
         right: 30px;
     }
-
+    #myCanvasContainer{
+        margin-left: -62px
+    }
 
     .address {
         float: none;
