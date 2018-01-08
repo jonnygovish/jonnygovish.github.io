@@ -100,14 +100,38 @@ $('.open-portfolio').magnificPopup({
 
 // Mixitup Filter
 
-// $(function() {
-//     // Instantiate MixItUp:
-//     $('#portfolio').mixItUp();
-// });
+$(function() {
+    // Instantiate MixItUp:
+    $('#portfolio').mixItUp();
+});
 
 
+if( ! $('#myCanvas').tagcanvas({
+    textColour : '#000',
+    outlineThickness : 0.5,
+    outlineColour : '#fe0853',
+    maxSpeed : 0.06,
+    freezeActive:true,
+    shuffleTags:true,
+    // shape:'vring',
+    // lock:'xy',
+    offset: 60,
+    zoom:1,
+    weightMode: 'size',
+    weightSize: 1.5,
+    radiusx:0.5,
+    noSelect:true,
+    textFont:null,
+    pinchZoom:true,
+    freezeDecel:true,
+    fadeIn:3000,
+    initial: [0.3,-0.1],
+    depth : 0.8
+})) {
+// TagCanvas failed to load
+$('#myCanvasContainer').hide();
 
-
+}
 
 
 
@@ -152,6 +176,8 @@ $.fn.bgLoaded = function(custom) {
         });
 
     });
+
+    
 };
 })(jQuery);
 
