@@ -56,7 +56,7 @@ function toggleProject(project, container, bool) {
         container.removeClass('project-is-open');
         //fade out page
         project.animate({
-            height: 'toggle'
+            opacity: 0
         }, 500, function() {
             project.removeClass('is-loaded');
             $('.page-container').find('.page-scroll').attr('style', '');

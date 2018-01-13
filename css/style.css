@@ -7,6 +7,9 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.row{
+    margin: 0;
+}
 
 html {
     font-size: 62.5%;
@@ -306,7 +309,7 @@ ul li {
 
 .page-container .single-page::before {
     /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-    content: 'img/me1.jpg';
+    content: 'img/min/me1.jpg';
     display: none
 }
 
@@ -315,11 +318,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(2)::after {
-    background-image: url("../img/img-2-large.jpg")
+    background-image: url("../img/min/img-2-large.jpg")
 }
 
 .page-container .single-page:nth-of-type(2)::before {
-    content: 'img/img-2-small.jpg'
+    content: 'img/min/img-2-small.jpg'
 }
 
 .page-container .single-page:nth-of-type(3) {
@@ -327,7 +330,7 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(3)::after {
-    background-image: url("../img/img-3-large.jpg")
+    background-image: url("../img/min/img-3-large.jpg")
 }
 
 .page-container .single-page:nth-of-type(3)::before {
@@ -612,7 +615,7 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::after {
-        background-image: url("../img/me1.JPG");
+        background-image: url("../img/min/me1.jpg");
     }
 
     .page-container .single-page:nth-of-type(2) {
@@ -621,11 +624,11 @@ ul li {
     }
 
     .page-container .single-page:nth-of-type(2)::before {
-        content: 'img/img-2-large.jpg';
+        content: 'img/min/img-2-large.jpg';
     }
 
     .page-container .single-page:nth-of-type(2)::after {
-        background-image: url("../img/img-2-large.jpg")
+        background-image: url("../img/min/img-2-large.jpg")
     }
 
     .page-container .single-page:nth-of-type(3) {
@@ -634,11 +637,11 @@ ul li {
     }
 
     .page-container .single-page:nth-of-type(3)::before {
-        content: 'img/img-3-large.jpg';
+        content: 'img/min/img-3-large.jpg';
     }
 
     .page-container .single-page:nth-of-type(3)::after {
-        background-image: url("../img/img-3-large.jpg")
+        background-image: url("../img/min/img-3-large.jpg")
     }
 
     .page-container .single-page:nth-of-type(4) {
@@ -647,11 +650,11 @@ ul li {
     }
 
     .page-container .single-page:nth-of-type(4)::before {
-        content: 'img/p-5.jpg'
+        content: 'img/min/p-5.jpg'
     }
 
     .page-container .single-page:nth-of-type(4)::after {
-        background-image: url("../img/p-5.jpg")
+        background-image: url("../img/min/p-5.jpg")
     }
 
     .page-container .single-page::after {
@@ -756,31 +759,6 @@ ul li {
     padding: 40px 30px;
     text-align: center
 }
-
-/* .pp-container {
-    display: block;
-    margin-bottom: 5px;
-    padding: 10px;
-    width: 150px;
-} */
-
-/* .about-me .profile-image img {
-    border: 5px solid #E8E8E8;
-    border-radius: 100%;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
-    height: auto;
-    margin: 15px auto;
-    position: relative;
-    width: 100%;
-    z-index: 2;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -o-transition: all .3s;
-    -ms-transition: all .3s;
-    transition: all .3s;
-
-} */
-
 
 .about-me .name {
     margin-top: 6em
