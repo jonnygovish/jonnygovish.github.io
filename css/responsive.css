@@ -1,7 +1,9 @@
 
 
 @media  screen and (min-width: 1401px) {
-
+    .row{
+        margin: 0;
+    }
     .about-me .bio-inner {
         padding: 70px 30px;
     }
@@ -45,7 +47,7 @@
 /* Screens Resolution : 1024px+
 -------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 
     .page-container .page-close {
         background-image: url("../img/icon-close-desktop.svg");
