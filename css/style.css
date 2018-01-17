@@ -936,6 +936,7 @@ ul li {
 .portfolio-items {
     margin: 0 auto;
     padding: 0;
+    display: flex;
 }
 
 .portfolio-items .mix {
@@ -1098,8 +1099,8 @@ ul li {
 
 .portfolio-items figure.effect-roxy img {
     max-width: none;
-    width: -webkit-calc(100% + 60px);
-    width: calc(100% + 60px);
+    /* width: -webkit-calc(100% + 60px); */
+    /* width: calc(100% + 60px); */
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(-50px, 0, 0);
