@@ -98,12 +98,12 @@ $('.open-portfolio').magnificPopup({
 });
 
 
-// Mixitup Filter
+// // Mixitup Filter
 
-$(function() {
-    // Instantiate MixItUp:
-    $('#portfolio').mixItUp();
-});
+// $(function() {
+//     // Instantiate MixItUp:
+//     $('#portfolio').mixItUp();
+// });
 
 
 if( ! $('#myCanvas').tagcanvas({
@@ -134,17 +134,9 @@ $('#myCanvasContainer').hide();
 }
 
 
-
-
-
-
-
 });
 
-/*
-* BG Loaded
-* Licensed under the MIT license.
-*/
+
 (function($) {
 $.fn.bgLoaded = function(custom) {
     var self = this;
