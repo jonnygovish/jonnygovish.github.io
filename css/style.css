@@ -615,7 +615,9 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::after {
-        background-image: url("../img/min/jon.jpg");
+        background-image: url("../img/min/me2.jpg");
+        /* background: url('/static/images/background.jpg') no-repeat center center; */
+        background-position: top;
     }
 
     .page-container .single-page:nth-of-type(2) {
