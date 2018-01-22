@@ -296,7 +296,7 @@ ul li {
     left: 0;
     height: 25vh;
     width: 100%;
-    background-image: url("../img/me1.JPG");
+    background-image: url("../img/jon.JPG");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -615,7 +615,7 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::after {
-        background-image: url("../img/min/me1.jpg");
+        background-image: url("../img/jon.jpg");
     }
 
     .page-container .single-page:nth-of-type(2) {
@@ -937,6 +937,7 @@ ul li {
     margin: 0 auto;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolio-items .mix {
@@ -944,14 +945,15 @@ ul li {
     margin-bottom: 30px;
     max-height: 360px;
     position: relative;
-    display: non
+    display: none
 }
 
 .white-popup {
     background: none repeat scroll 0 0 #fff;
     color: #333;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 1336px;
+    padding-top: 1px;
     padding-bottom: 20px;
     position: relative;
     width: auto;
@@ -968,6 +970,7 @@ ul li {
     font-size: 18px;
     margin: 35px 20px 10px;
     text-transform: uppercase;
+    padding-top: 37px;
 }
 
 .project-desc {
