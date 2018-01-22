@@ -296,7 +296,7 @@ ul li {
     left: 0;
     height: 25vh;
     width: 100%;
-    background-image: url("../img/jon.JPG");
+    background-image: url("../img/min/jon.JPG");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -615,7 +615,7 @@ ul li {
     }
 
     .page-container .single-page:first-of-type::after {
-        background-image: url("../img/jon.jpg");
+        background-image: url("../img/min/jon.jpg");
     }
 
     .page-container .single-page:nth-of-type(2) {
