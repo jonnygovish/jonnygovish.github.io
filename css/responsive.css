@@ -15,7 +15,7 @@
 .page-container .single-page.is-loaded::after{opacity:0.15;}
 .no-touch .page-container .single-page:hover::after,
 .page-container .single-page.is-full-width.is-loaded::after{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
-.social .social-profiles{margin-left:33em;}
+.social .social-profiles{margin-left:50em;}
 }
 @media screen and (max-width:1024px){.page-title h2{font-size:1.25em;}
 .page-title p{font-size:14px;}

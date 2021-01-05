@@ -130,7 +130,7 @@ ul li{list-style:none;}
 .portfolio-container{background:none repeat scroll 0 0 #f9f9f9;display:block;margin:0 auto;overflow:hidden;padding:50px;width:100%;}
 .portfolio-items{margin:0 auto;padding:0;display:flex;flex-wrap:wrap;}
 .portfolio-items .mix{height:auto;margin-bottom:30px;max-height:360px;position:relative;display:none}
-.white-popup{background:none repeat scroll 0 0 #fff;color:#333;margin:0 auto;max-width:1336px;padding-top:1px;padding-bottom:20px;position:relative;width:auto;}
+.white-popup{background:none repeat scroll 0 0 #fff;color:#333;margin:0 auto;max-width:1336px;padding-top:70px;padding-bottom:20px;position:relative;width:auto;}
 .white-popup img{margin:0 auto;display:block;width:90%}
 .project-title{color:#404148;font-size:18px;margin:35px 20px 10px;text-transform:uppercase;padding-top:37px;}
 .project-desc{color:#777;font-size:14px;letter-spacing:.5px;line-height:20px;margin:20px;}
